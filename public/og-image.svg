@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6E5411"/>
+      <stop offset="0.25" stop-color="#C9A227"/>
+      <stop offset="0.5" stop-color="#F7ECCB"/>
+      <stop offset="0.75" stop-color="#C9A227"/>
+      <stop offset="1" stop-color="#6E5411"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.65">
+      <stop offset="0" stop-color="#C9A227" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#000000"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <rect x="28" y="28" width="1144" height="574" rx="20" fill="none" stroke="url(#gold)" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="42" y="42" width="1116" height="546" rx="16" fill="none" stroke="url(#gold)" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- corner filigree -->
+  <g stroke="url(#gold)" fill="none" stroke-width="2" stroke-linecap="round" opacity="0.9">
+    <path d="M120 60 C 80 62 62 82 58 120"/>
+    <path d="M58 120 C 76 112 92 116 100 130 C 86 142 70 140 58 120 Z"/>
+    <path d="M1080 60 C 1120 62 1138 82 1142 120"/>
+    <path d="M1142 120 C 1124 112 1108 116 1100 130 C 1114 142 1130 140 1142 120 Z"/>
+    <path d="M120 570 C 80 568 62 548 58 510"/>
+    <path d="M58 510 C 76 518 92 514 100 500 C 86 488 70 490 58 510 Z"/>
+    <path d="M1080 570 C 1120 568 1138 548 1142 510"/>
+    <path d="M1142 510 C 1124 518 1108 514 1100 500 C 1114 488 1130 490 1142 510 Z"/>
+  </g>
+
+  <text x="600" y="158" font-family="'Times New Roman', Georgia, serif" font-size="30" font-style="italic" text-anchor="middle" fill="#C9A227" opacity="0.85">In The Name Of Allah, The Most Merciful</text>
+
+  <text x="600" y="250" font-family="'Times New Roman', Georgia, serif" font-size="26" letter-spacing="6" text-anchor="middle" fill="#C9A227" opacity="0.8">PLEASE JOIN US TO CELEBRATE THE WEDDING OF</text>
+
+  <text x="600" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-style="italic" text-anchor="middle" fill="url(#gold)">Adil Malik</text>
+  <text x="600" y="432" font-family="Georgia, serif" font-size="42" text-anchor="middle" fill="#C9A227">&amp;</text>
+  <text x="600" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-style="italic" text-anchor="middle" fill="url(#gold)">Ayesha Malik</text>
+
+  <line x1="420" y1="546" x2="780" y2="546" stroke="url(#gold)" stroke-opacity="0.6" stroke-width="1"/>
+  <text x="600" y="588" font-family="Georgia, serif" font-size="30" letter-spacing="8" text-anchor="middle" fill="#F4EAD3">03 OCTOBER 2026</text>
+</svg>
